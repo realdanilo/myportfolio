@@ -1,0 +1,11 @@
+.contact-container a{
+    font-size: 40px;
+    margin-right: 10px;
+}
+.contact-container a:hover{
+    color:blue;
+}
+.contact-container h3{
+    margin-top: 20px;
+    margin-bottom: 5px;
+}
