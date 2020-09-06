@@ -1,7 +1,8 @@
 import React from 'react'
 import '../css/Project.css'
+import { Link } from 'react-router-dom'
 export default function Project({ project }) {
-    const { name, url, github, description, stack, main } = project
+    const { name, url, github, description, stack, main, image } = project
     return (
         <div className="project-container">
             <h3 className="project-title">{name}</h3>
@@ -20,6 +21,13 @@ export default function Project({ project }) {
                 <a rel="noopener noreferrer" href={`${url}`} target="_blank">Live</a>
                 {github.length > 1 && <a rel="noopener noreferrer" href={`${github}`} target="_blank">Github</a>}
             </div>
+            <div className="image-container">
+                <img src={image} alt={`${name} image`} />
+            </div>
+            <Link className="back" to="/">Back</Link>
+            <br />
+            <br />
+            <br />
         </div>
     )
 }

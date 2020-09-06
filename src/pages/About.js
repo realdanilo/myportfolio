@@ -26,6 +26,7 @@ export default function About() {
                     <p>Advance Excel(Macros), Power BI, Tableau, Lean/Kaizen </p>
                 </div>
             </div>
+            <h4 className="powered-by">Portfolio is powered by React JS</h4>
             <div className="about-logos">
                 <AiFillHtml5 /><FaCss3Alt /><SiJavascript /><FaReact /><SiMongodb />
             </div>

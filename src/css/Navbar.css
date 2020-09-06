@@ -4,7 +4,7 @@
     height:60px;
     align-items: center;
     justify-content: space-around;
-    background-color: #cdd6f5;
+    background-color: #dce2f5;
     color:rgb(24, 24, 24);
     margin-bottom:10px;
 }
@@ -14,7 +14,7 @@
 
 }
 .logo a:hover{
-    color:purple;
+    border-bottom: 1px solid white;
    
 }
 .links{

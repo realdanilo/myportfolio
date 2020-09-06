@@ -1,7 +1,13 @@
+import recipe from './images/recipe.png'
+import beatles from './images/beatles.png'
+import color from './images/color.png'
+import roofstore from './images/roofstore.png'
+import yelpcamp from './images/yelpcamp.png'
 let projects = [
     {
         id: 5,
-        name: "Roof Store Project",
+        image: roofstore,
+        name: "Roof Store ",
         url: "https://danilomera-roofstore.netlify.app/",
         github: "https://github.com/realdanilo/roofstore",
         description: "From design to live site, using static technology",
@@ -10,7 +16,8 @@ let projects = [
     },
     {
         id: 3,
-        name: "Beatles Website",
+        image: beatles,
+        name: "Beatles",
         url: "https://danilomera-beatles.netlify.app/",
         github: "",
         description: "Mobile first Beatles static website. I added some widgets such as Spotify, Graph, and Concert feedback",
@@ -19,10 +26,11 @@ let projects = [
     },
     {
         id: 1,
-        name: "YelpCamp+",
+        image: yelpcamp,
+        name: "Social Media",
         url: "https://danilocamp.herokuapp.com/",
         github: "https://github.com/realdanilo/yelpcamp",
-        description: "I advance my bootcamp project and included extra features that optimizes the website, makes more dynamic, and relates to a real world app.",
+        description: "I advance my bootcamp project and included extra features that optimizes the website, makes more dynamic, and relates to a real world app. For example you can upload images, create and login a user, admin access, set a map location, and reference likes between posts.",
         stack: ["Node", "Express", "Mongo DB", "Bootstrap", "Passport", "Cloudinary"],
         main: ["REST", "Authentication", "Admin settings", "Cascade Delete", "Geomaping", "API"]
 
@@ -31,6 +39,7 @@ let projects = [
 
     {
         id: 4,
+        image: recipe,
         name: "Recipe App",
         url: "https://danilomera-recipe.netlify.app/",
         github: "https://github.com/realdanilo/recipeapp",
@@ -41,10 +50,11 @@ let projects = [
     },
     {
         id: 2,
-        name: "Color App",
+        image: color,
+        name: "Color",
         url: "https://danilomera-colorapp.netlify.app/",
         github: "https://github.com/realdanilo/colorapp",
-        description: "Bootcamp project for React. Here I learned to use OOP with modern technology, translate old React to newest version, and build using MaterialUI",
+        description: "Bootcamp project for React. Here I learned to use OOP with modern technology, learned development life cycle methods, and use of MaterialUI components",
         stack: ["React", "Material UI", "NPM modules"],
         main: ["OOP", "Routing", "Optimization/Memoization", "Life Cycle", "withStyles"]
     },
