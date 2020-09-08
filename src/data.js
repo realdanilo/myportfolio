@@ -3,6 +3,7 @@ import beatles from './images/beatles.png'
 import color from './images/color.png'
 import roofstore from './images/roofstore.png'
 import yelpcamp from './images/yelpcamp.png'
+import movie from './images/movie.jpg'
 let projects = [
     {
         id: 5,
@@ -58,6 +59,16 @@ let projects = [
         stack: ["React", "Material UI", "NPM modules"],
         main: ["OOP", "Routing", "Optimization/Memoization", "Life Cycle", "withStyles"]
     },
+    {
+        id: 6,
+        image: movie,
+        name: "Movie Search",
+        url: "https://danilo-movie.netlify.app",
+        github: "",
+        description: "Use external API movie databse to find movies by name and id. You can save you favorite movies by giving them a like. Also some movies have a video and you can click to watch it",
+        stack: ["Rect", "Hooks", "React router", "API", "Slick module"],
+        main: ["useState", "Local Storage", "Pagination", "APIs", "Youtube"]
+    }
 
 ]
 export default projects
