@@ -86,16 +86,19 @@ font-weight: 400;
         grid-template-rows: 350px 350px 350px;
         grid-template-areas: "n0n n5n n5n"
                             "n2n n2n n3n"
-                            "n4n n1n n1n";
+                            "n4n n1n n6n";
         column-gap: 20px;
         row-gap: 20px;
         }
     
+
+        /* there are 7 projects, 0 index when looping */
     .grid-0{grid-area: n0n; }
     .grid-1{grid-area: n1n;}
     .grid-2{grid-area: n2n;}
     .grid-3{grid-area: n3n;}
     .grid-4{grid-area: n4n;}
     .grid-5{grid-area: n5n;}
+    .grid-6{grid-area:n6n;}
 
 }

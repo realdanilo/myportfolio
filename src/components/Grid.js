@@ -4,7 +4,7 @@ import { Link } from 'react-router-dom'
 export default function Grid({ project, number }) {
     const { name, url, image, id } = project
     const style = {
-        background: `url(${image}) no-repeat left center`,
+        background: `url(${image}) no-repeat center center`,
         WebkitBackgroundSize: "cover",
         MozBackgroundSize: "cover",
         OBackgroundSize: "cover",

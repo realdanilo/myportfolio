@@ -4,6 +4,7 @@ import color from './images/color.png'
 import roofstore from './images/roofstore.png'
 import yelpcamp from './images/yelpcamp.png'
 import movie from './images/movie.jpg'
+import resort from './images/resort.JPG'
 let projects = [
     {
         id: 5,
@@ -64,10 +65,20 @@ let projects = [
         image: movie,
         name: "Movie Search",
         url: "https://danilo-movie.netlify.app",
-        github: "",
+        github: "https://github.com/realdanilo/movie",
         description: "Use external API movie databse to find movies by name and id. You can save you favorite movies by giving them a like. Also some movies have a video and you can click to watch it",
         stack: ["Rect", "Hooks", "React router", "API", "Slick module"],
         main: ["useState", "Local Storage", "Pagination", "APIs", "Youtube"]
+    },
+    {
+        id: 7,
+        image: resort,
+        name: "Resort",
+        url: "https://danilomera-resort.netlify.app",
+        github: "https://github.com/realdanilo/resort",
+        description: "Content Management System and React. Filter Hotels and find information about them. Re build OOP project to new hook syntax! Always learning!",
+        stack: ["React", "Contentful", "Hooks"],
+        main: ["useReducer Async", "CMS", "API"]
     }
 
 ]
