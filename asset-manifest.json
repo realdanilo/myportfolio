@@ -1,29 +1,31 @@
 {
   "files": {
-    "main.css": "/static/css/main.8fcf2201.chunk.css",
-    "main.js": "/static/js/main.bdd48834.chunk.js",
-    "main.js.map": "/static/js/main.bdd48834.chunk.js.map",
+    "main.css": "/static/css/main.fb2f3ea0.chunk.css",
+    "main.js": "/static/js/main.838af0ca.chunk.js",
+    "main.js.map": "/static/js/main.838af0ca.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.19ccc7f6.js",
     "runtime-main.js.map": "/static/js/runtime-main.19ccc7f6.js.map",
-    "static/js/2.ce3e20b3.chunk.js": "/static/js/2.ce3e20b3.chunk.js",
-    "static/js/2.ce3e20b3.chunk.js.map": "/static/js/2.ce3e20b3.chunk.js.map",
+    "static/js/2.8600672a.chunk.js": "/static/js/2.8600672a.chunk.js",
+    "static/js/2.8600672a.chunk.js.map": "/static/js/2.8600672a.chunk.js.map",
     "index.html": "/index.html",
-    "precache-manifest.997558662f7d503b265adadbfc67b0da.js": "/precache-manifest.997558662f7d503b265adadbfc67b0da.js",
+    "precache-manifest.a9edc57a965f49baa964e530897cc47d.js": "/precache-manifest.a9edc57a965f49baa964e530897cc47d.js",
     "service-worker.js": "/service-worker.js",
-    "static/css/main.8fcf2201.chunk.css.map": "/static/css/main.8fcf2201.chunk.css.map",
-    "static/js/2.ce3e20b3.chunk.js.LICENSE.txt": "/static/js/2.ce3e20b3.chunk.js.LICENSE.txt",
+    "static/css/main.fb2f3ea0.chunk.css.map": "/static/css/main.fb2f3ea0.chunk.css.map",
+    "static/js/2.8600672a.chunk.js.LICENSE.txt": "/static/js/2.8600672a.chunk.js.LICENSE.txt",
     "static/media/beatles.png": "/static/media/beatles.52601f11.png",
+    "static/media/blog.JPG": "/static/media/blog.fbb078d2.JPG",
     "static/media/color.png": "/static/media/color.9f8774ae.png",
+    "static/media/concert.JPG": "/static/media/concert.fcfcadb7.JPG",
     "static/media/movie.jpg": "/static/media/movie.b9a6d4ee.jpg",
     "static/media/recipe.png": "/static/media/recipe.5daee383.png",
-    "static/media/resort.JPG": "/static/media/resort.30dc6afd.JPG",
+    "static/media/resort.JPG": "/static/media/resort.9120dfa3.JPG",
     "static/media/roofstore.png": "/static/media/roofstore.c00c8b79.png",
     "static/media/yelpcamp.png": "/static/media/yelpcamp.1b903501.png"
   },
   "entrypoints": [
     "static/js/runtime-main.19ccc7f6.js",
-    "static/js/2.ce3e20b3.chunk.js",
-    "static/css/main.8fcf2201.chunk.css",
-    "static/js/main.bdd48834.chunk.js"
+    "static/js/2.8600672a.chunk.js",
+    "static/css/main.fb2f3ea0.chunk.css",
+    "static/js/main.838af0ca.chunk.js"
   ]
 }
