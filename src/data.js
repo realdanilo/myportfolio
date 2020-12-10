@@ -5,7 +5,51 @@ import roofstore from './images/roofstore.png'
 import yelpcamp from './images/yelpcamp.png'
 import movie from './images/movie.jpg'
 import resort from './images/resort.JPG'
+import concert from './images/concert.JPG'
+import blog from './images/blog.JPG'
 let projects = [
+    {
+        id: 6,
+        image: movie,
+        name: "Movie Search",
+        url: "https://danilomera-movie.netlify.app",
+        github: "https://github.com/realdanilo/movie",
+        description: "Use external API movie databse to find movies by name and id. You can save you favorite movies by giving them a like. Also some movies have a video and you can click to watch it",
+        stack: ["Rect", "Hooks", "React router", "API", "Slick module"],
+        main: ["useState", "Local Storage", "Pagination", "APIs", "Youtube"]
+        
+    },
+    {
+        id: 7,
+        image: resort,
+        name: "Hotel",
+        url: "https://danilomera-hotel.netlify.app",
+        github: "https://github.com/realdanilo/hotel",
+        description: "Content Management System and React. Filter Hotels and find information about them. Re build OOP project to new hook syntax! Always learning!",
+        stack: ["React", "Contentful", "Hooks"],
+        main: ["useReducer Async", "CMS", "API"]
+    },
+    {
+        id:9,
+        image:blog,
+        name:"BLOG",
+        url:"https://danilomera-blog.herokuapp.com/blog",
+        github:"",
+        description:"CRUD RESTful blog application with (google) auth2",
+        stack:["NodeJS","Bootstrap","EJS", "Mongo","Heroku"],
+        main:["passport", "google auth2","dashboards"]
+        
+    },
+    {
+        id:8,
+        image: concert,
+        name:"Concert",
+        url:"https://danilomera-concert.netlify.app",
+        github:"",
+        description:"HTML CSS mobile friendly band website",
+        stack:["HTML", "CSS"],
+        main:["mobile first","flexbox","queries"]
+    },
     {
         id: 5,
         image: roofstore,
@@ -37,8 +81,6 @@ let projects = [
         main: ["REST", "Authentication", "Admin settings", "Cascade Delete", "Geomaping", "API"]
 
     },
-
-
     {
         id: 4,
         image: recipe,
@@ -48,7 +90,6 @@ let projects = [
         description: "Use of modern React, routing, and context to build an amazing recipe app. Super optimized!",
         stack: ["React", "Hooks"],
         main: ["useReducer", "useContext", "customHooks", "Local Storage"]
-
     },
     {
         id: 2,
@@ -60,26 +101,6 @@ let projects = [
         stack: ["React", "Material UI", "NPM modules"],
         main: ["OOP", "Routing", "Optimization/Memoization", "Life Cycle", "withStyles"]
     },
-    {
-        id: 6,
-        image: movie,
-        name: "Movie Search",
-        url: "https://danilomera-movie.netlify.app",
-        github: "https://github.com/realdanilo/movie",
-        description: "Use external API movie databse to find movies by name and id. You can save you favorite movies by giving them a like. Also some movies have a video and you can click to watch it",
-        stack: ["Rect", "Hooks", "React router", "API", "Slick module"],
-        main: ["useState", "Local Storage", "Pagination", "APIs", "Youtube"]
-    },
-    {
-        id: 7,
-        image: resort,
-        name: "Resort",
-        url: "https://danilomera-hotel.netlify.app",
-        github: "https://github.com/realdanilo/hotel",
-        description: "Content Management System and React. Filter Hotels and find information about them. Re build OOP project to new hook syntax! Always learning!",
-        stack: ["React", "Contentful", "Hooks"],
-        main: ["useReducer Async", "CMS", "API"]
-    }
-
+    
 ]
 export default projects

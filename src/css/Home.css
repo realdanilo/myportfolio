@@ -1,104 +1,90 @@
-h3.projects{
-    margin:20px;
-font-weight: 400;
+h3.projects {
+  margin: 20px;
+  font-weight: 400;
 }
-
 
 /* GRID */
-.project-grid-ui{
-   display: flex;
-   flex-direction: column;
+.project-grid-ui {
+  display: flex;
+  flex-wrap: wrap;
 }
-.grid{
-    height:350px;
-    margin-bottom: 20px;
-    border:1px solid rgba(41, 40, 40, 0.247);
-        border-radius: 5px;
-    overflow: hidden;
-    box-shadow: 2px 0px 5px rgba(0,0,0,.25);
+.grid {
+  height: 350px;
+  margin-bottom: 20px;
+  border-radius: 5px;
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 0px 5px 0px,
+    rgba(0, 0, 0, 0.1) 0px 0px 1px 0px;
 }
-.grid:hover .grid-links{
-    opacity:1;
+.grid:hover {
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 1px 3px 0px,
+    rgba(0, 0, 0, 0.06) 0px 1px 2px 0px;
 }
-.grid-links{
-    position: absolute;
-    top:50%;
-    left:50%;
-    width:100%;
-    height: 100%;
-    transform: translate(-50%,-50%);
-   background-color: #2e2f35a9;
-    opacity:0;
-    transition: opacity .5s ease;
-    display: flex;
-    justify-content: center;
+.grid:hover .grid-links {
+  opacity: 1;
+}
+.grid-links {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(255, 255, 255, 0.801);
+  opacity: 0;
+  transition: opacity 0.5s ease;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.grid-links a {
+  margin-right: 10px;
+  cursor: pointer;
+  padding: 10px 14px;
+  border: 2px solid #7f408a;
+  color: #7f408a;
+  border-radius: 3px;
+  font-size: 20px;
+  transform: skew(-5deg);
+  transition: all 0.2s ease;
+}
+
+.grid-links a:hover {
+  background-color: #7f408a;
+  color: white;
+}
+
+.social {
+  position: absolute;
+  border-top: 1px solid rgb(104, 103, 103);
+  border-right: 1px solid rgb(104, 103, 103);
+  border-bottom: 1px solid rgb(104, 103, 103);
+  padding: 5px;
+  border-radius: 3px;
+  top: 10%;
+  left: 0;
+  display: flex;
+  flex-direction: column;
+  font-size: 35px;
+}
+.social a {
+  color: rgb(44, 44, 46);
+}
+.social a:hover:nth-child(1) {
+  color: blue;
+}
+.social a:hover:nth-child(2) {
+  color: green;
+}
+.footer {
+  height: 100px;
+}
+
+@media only screen and (min-width: 800px) {
+  .project-grid-ui {
+    justify-content: space-around;
     align-items: center;
-}
-.grid-links a{
-    margin-right: 10px;
-    cursor: pointer;
-    padding:10px 14px;
-    background-color: #583d5d;
-    border-radius: 3px;
-    color:rgb(255, 251, 251);
-    font-size: 20px;
-    transform: skew(-5deg);
-}
-
-.grid-links a:hover{
-    background-color: #7f408a;
-
-}
-
-.social{
-    position:absolute;
-    border-top:1px solid rgb(104, 103, 103);
-    border-right: 1px solid  rgb(104, 103, 103);
-    border-bottom: 1px solid rgb(104, 103, 103);
-    padding:5px;
-    border-radius: 3px;
-    top:10%;
-    left:0;
-    display: flex;
-    flex-direction: column;
-    font-size: 35px;
-}
-.social a{
-    color:rgb(44, 44, 46);
-}
-.social a:hover:nth-child(1){
-    color:blue
-}
-.social a:hover:nth-child(2){
-    color:green;
-}
-.footer{
-    height:100px
-}
-
-
-@media only screen and (min-width: 1000px) {
-
-    /* grid-container-ui */
-    .project-grid-ui{
-        display:grid;
-        width:100%;
-        grid-template-rows: 350px 350px 350px;
-        grid-template-areas: "n0n n5n n5n"
-                            "n2n n2n n3n"
-                            "n4n n1n n6n";
-        column-gap: 20px;
-        row-gap: 20px;
-        }
-    
-
-        /* there are 7 projects, 0 index when looping */
-    .grid-0{grid-area: n0n; }
-    .grid-1{grid-area: n1n;}
-    .grid-2{grid-area: n2n;}
-    .grid-3{grid-area: n3n;}
-    .grid-4{grid-area: n4n;}
-    .grid-5{grid-area: n5n;}
-    .grid-6{grid-area:n6n;}
-
+    column-gap: 10px;
+  }
+  .grid {
+    flex: 40%;
+  }
 }

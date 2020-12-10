@@ -8,10 +8,9 @@ export default function Home() {
         <>
             <div className="main-container">
                 <div className="project-grid-ui">
-                    {data.map((project, i) => <Grid key={i} project={project} number={i} />)}
+                    {data.map((project, i) => <Grid key={i} project={project}  />)}
                 </div>
 
-                < div className="footer" ></div>
             </div>
             <div className="social">
                 <a rel="noopener noreferrer" href="https://github.com/realdanilo" target="_blank"><AiFillGithub /></a>
