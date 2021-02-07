@@ -2,7 +2,18 @@ h3.projects {
   margin: 20px;
   font-weight: 400;
 }
-
+.new-website {
+  margin: 40px auto;
+  display: block;
+  background-color: rgba(255, 0, 0, 0.575);
+  color: white;
+  width: 80%;
+  padding: 30px 10px;
+  font-size: 30px;
+}
+.new-website:hover {
+  background-color: rgba(255, 0, 0, 0.692);
+}
 /* GRID */
 .project-grid-ui {
   display: flex;

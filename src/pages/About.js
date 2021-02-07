@@ -29,6 +29,7 @@ export default function About() {
             <div className="about-logos">
                 <AiFillHtml5 /><FaCss3Alt /><SiJavascript /><FaReact /><SiMongodb />
             </div>
+           
         </div>
     )
 }

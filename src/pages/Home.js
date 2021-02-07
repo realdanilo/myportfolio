@@ -6,6 +6,7 @@ import Grid from '../components/Grid'
 export default function Home() {
     return (
         <>
+            <a className="new-website" href="https://realdanilo.vercel.app/" target="_blank">New Website</a>
             <div className="main-container">
                 <div className="project-grid-ui">
                     {data.map((project, i) => <Grid key={i} project={project}  />)}
